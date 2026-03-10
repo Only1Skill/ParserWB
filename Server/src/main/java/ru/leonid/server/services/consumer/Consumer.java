@@ -51,6 +51,7 @@ public class Consumer {
         this.productService = productService;
     }
 
+
     /**
      * Обрабатывает входящие сообщения из топик Kafka.
      * Метод вызывается автоматически при появлении нового сообщения.
