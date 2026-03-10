@@ -3,7 +3,6 @@ package ru.leonid.parser.services.consumer;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import lombok.extern.slf4j.Slf4j;
-import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.kafka.annotation.KafkaListener;
 import org.springframework.stereotype.Component;
@@ -20,18 +19,15 @@ import ru.leonid.parser.services.ProductScraperService;
 public class Consumer {
 
     private final ObjectMapper objectMapper;
-    private final ModelMapper modelMapper;
 
     /**
      * Конструктор для внедрения зависимостей.
      *
      * @param objectMapper    объект для работы с JSON
-     * @param modelMapper     объект для преобразования данных
      */
     @Autowired
-    public Consumer(ObjectMapper objectMapper, ModelMapper modelMapper) {
+    public Consumer(ObjectMapper objectMapper) {
         this.objectMapper = objectMapper;
-        this.modelMapper = modelMapper;
     }
 
     /**

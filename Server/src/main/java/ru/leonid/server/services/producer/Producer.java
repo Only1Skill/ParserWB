@@ -13,7 +13,7 @@ import ru.leonid.server.models.Products;
  * Производитель сообщений Kafka.
  * Отправляет сообщения в указанный топик Kafka.
  *
- * @author Alexandr Daev
+ * @author Leonid Platonov
  */
 @Slf4j // Автоматически создает поле logger через Lombok
 @Component // Регистрирует класс как компонент Spring

@@ -14,7 +14,7 @@ import ru.leonid.server.services.producer.Producer;
  * Сервис для работы с продуктами.
  * Реализует бизнес-логику приложения для управления продуктами.
  *
- * @author Alexandr Daev
+ * @author Leonid Platonov
  */
 @Service                      // Регистрирует класс как сервис Spring
 @Transactional(readOnly = true)  // По умолчанию все методы только для чтения

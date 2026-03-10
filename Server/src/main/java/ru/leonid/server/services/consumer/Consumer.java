@@ -18,7 +18,7 @@ import ru.leonid.server.services.ProductService;
  * Потребитель сообщений Kafka.
  * Принимает и обрабатывает сообщения из указанного топика Kafka.
  *
- * @author Alexandr Daev
+ * @author Leonid Platonov
  */
 @Slf4j                  // Автоматически создает поле logger через Lombok
 @Component              // Регистрирует класс как компонент Spring
