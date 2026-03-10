@@ -16,7 +16,6 @@ Spring(Boot, Data, Validator), JUnit, Selenium, Kafka, Docker, PostgreSQL, Kafdr
 ### Установка
 1. Склонируйте репозиторий с проектом:
     ```bash
-    git clone https://github.com/0-Bober-0/ParserWB.git
     ```
 2. Перейдите в директорию проекта:
     ```bash
@@ -69,20 +68,5 @@ Spring(Boot, Data, Validator), JUnit, Selenium, Kafka, Docker, PostgreSQL, Kafdr
 ### Проверка на неправильно введённый URL
 ![image](https://github.com/user-attachments/assets/815c9af1-4f59-4702-bf46-fc1ea89aaf3a)
 
-### Логирование
-![image](https://github.com/user-attachments/assets/490ae4f3-a383-446b-8cc7-727eefbf1f7b)
-
 ### Страница Kafdrop
 ![image](https://github.com/user-attachments/assets/9f7855c4-038e-4c2e-b660-8621e86cf1ab)
-
-### Сообщения в топике
-![image](https://github.com/user-attachments/assets/5d3d2b95-ab1f-4971-91bc-a11e002db15c)
-
-
-
-
-
-
-
-
-
