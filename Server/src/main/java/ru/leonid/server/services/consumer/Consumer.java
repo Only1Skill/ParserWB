@@ -38,7 +38,7 @@ public class Consumer {
     private final ProductService productService;
 
     /**
-     * Конструктор с автоматическим внедрением зависимостей.
+     * Конструктор с автоматическим внедрением зависимостей
      *
      * @param objectMapper Маппер для работы с JSON
      * @param modelMapper Маппер для преобразования объектов
